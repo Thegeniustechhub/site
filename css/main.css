@@ -184,8 +184,8 @@ body.dark .title h2 {
 
 .toggle {
     position: absolute;
-    top: 35px;
-    right: 65px;
+    top: 38px;
+    right: 80px;
     background: var(--dark-mode);
     width: 30px;
     height: 30px;
