@@ -53,7 +53,7 @@ $(document).ready(function(){
         $(this).siblings().removeClass('active');
         $(this).addClass('active');
     });
-    
+
     // wow initiation
     new WOW().init();
 
