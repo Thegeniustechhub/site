@@ -36,7 +36,24 @@ $(document).ready(function(){
 
        toggle.addEventListener('click', changeMode);
 
+    //    Active Menu
+    // const links = document.querySelectorAll('.nav-link');
+    // const sections = document.querySelectorAll('section');
 
+    // function activeMenu() {
+    //     let len = sections.length;
+    //     while (--len && window.screenY + 97 < sections[len].offsetTop) {}
+    //     links.forEach(ltx => ltx.classList.remove('active'));
+    //     links[len].classList.add('active');
+    // }
+
+    // window.addEventListener('scroll', activeMenu);
+
+    $('.link').click(function(){
+        $(this).siblings().removeClass('active');
+        $(this).addClass('active');
+    });
+    
     // wow initiation
     new WOW().init();
 

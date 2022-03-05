@@ -90,6 +90,14 @@ body.dark .title h2 {
     font-size: 1.1rem;
 }
 
+.active {
+    border: 2px solid var(--mount-meadow);
+    background-color: transparent;
+    border-radius: 2rem;
+    padding: 0.5rem 2rem !important;
+    transition: var(--transition);
+}
+
 /* header */
 .header{
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../assets/header-bg\ \(2\).jpg);
