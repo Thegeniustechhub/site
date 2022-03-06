@@ -73,7 +73,7 @@ section{
 }
 
 body.dark .title, 
-body.dark .title h2 {
+body.dark h2 {
     color: var(--dark-mode-color);
 }
 
