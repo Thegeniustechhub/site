@@ -190,8 +190,8 @@ li.active {
 
 .toggle-container {
     position: absolute;
-    top: 35px;
-    right: 70px;
+    top: 38px;
+    right: 80px;
 }
 
 .toggle {
@@ -982,6 +982,10 @@ body.dark .back-to-top i {
         font-size: 22px;
         font-weight: bolder;
     }
+    .container1 .contact-info .box {
+        width: 90%;
+        margin: 10px auto;
+    }
 }
 
 @media screen and (max-width: 360px) {
@@ -991,6 +995,10 @@ body.dark .back-to-top i {
     }
     .detail h3 {
         font-size: 17px;
+    }
+    .container1 .contact-info .box {
+        width: 90%;
+        margin: 10px auto;
     }
 }
 
@@ -1117,6 +1125,11 @@ body.dark .back-to-top i {
 
     .feature-right {
         margin-top: 0;
+    }
+
+    .container1 .contact-info .box {
+        width: 60%;
+        margin: 10px auto;
     }
 
     .video p {
